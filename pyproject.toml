@@ -1,0 +1,6 @@
+[project]
+name = "ticket"
+version = "0.1.0"
+description = "本地 12306 桌面购票助手（Python + Tkinter + Playwright）"
+requires-python = ">=3.12"
+dependencies = ["playwright>=1.55,<2"]

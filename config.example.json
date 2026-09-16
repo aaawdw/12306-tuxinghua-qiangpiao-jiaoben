@@ -1,0 +1,14 @@
+{
+  "from": "北京西",
+  "to": "西安北",
+  "travelDate": "2026-09-30",
+  "saleAt": "2026-09-17T09:15:00+08:00",
+  "passengers": [{ "name": "请填写12306中已添加的乘客姓名", "ticket": "成人票" }],
+  "preferences": [{ "train": "G87", "seat": "二等座" }, { "train": "G89", "seat": "一等座" }],
+  "allowNoSeat": false,
+  "berth": "不限",
+  "waitlist": "提醒",
+  "pollIntervalMs": 5000,
+  "maxRunMinutes": 10,
+  "browser": "chrome"
+}

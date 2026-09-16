@@ -1,0 +1,18 @@
+{
+  "name": "ticket-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "本地 12306 购票助手，手动登录与付款",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "setup": "tsx src/cli.ts --setup",
+    "start": "tsx src/cli.ts --mode live",
+    "dry-run": "tsx src/cli.ts --mode dry-run",
+    "demo": "tsx src/cli.ts --demo",
+    "check": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": { "playwright": "^1.55.0", "zod": "^4.1.0" },
+  "devDependencies": { "@types/node": "^24.0.0", "tsx": "^4.20.0", "typescript": "^5.9.0" }
+}

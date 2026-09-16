@@ -1,0 +1,1 @@
+"""Local desktop ticket assistant."""

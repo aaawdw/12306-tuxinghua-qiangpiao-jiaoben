@@ -1,0 +1,11 @@
+node_modules/
+.cache/
+.local/
+config.json
+.venv/
+.idea/
+*.log
+test-results/
+__pycache__/
+*.pyc
+.pytest_cache/
